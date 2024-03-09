@@ -1,0 +1,32 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 20px;
+  }
+  
+  h1 {
+	text-align: center;
+  }
+  
+  #image-prompt-form {
+	display: flex;
+	gap: 10px;
+  }
+  
+  #image-prompt {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  #image-container {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  #generated-image {
+	width: 300px;
+	height: 200px;
+	object-fit: cover; /* Adjust image fit as needed */
+  }

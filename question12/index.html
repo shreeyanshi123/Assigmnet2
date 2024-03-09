@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Image Generator (Simulated)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>AI Image Generator</h1>
+  <p>Enter a description of the image you want to generate:</p>
+  <form id="image-prompt-form">
+    <input type="text" id="image-prompt" name="image-prompt" placeholder="e.g., A cat playing with a ball of yarn" required>
+    <button type="submit">Generate Image</button>
+  </form>
+  <div id="image-container">
+    <img id="generated-image" src="placeholder.jpg" alt="Generated Image">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
